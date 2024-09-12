@@ -1,0 +1,30 @@
+.float-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.float-container img {
+    width: 700px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.float-container .right-img {
+    float: right;
+    height: 500px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs img {
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+}
